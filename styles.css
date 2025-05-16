@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
+    line-height: 25px;
 }
 .container {
     max-width: 800px;
@@ -13,35 +14,78 @@ body {
 }
 h1,
 h2,
-h3 {
+h3 { font-family: "Playfair Display"
 }
+
 h1 {
+    text-transform: uppercase;
+    text-align: center;
 }
+
 h2 {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: underline;
 }
+
 h3 {
+    font-style: italic;
 }
+
 p {
+    text-indent: 15px;
+    font-size: 18px;
+    padding: 10px;
 }
-a {
+
+a {}
+
+a:hover {}
+
+.col {
+    color: #007fff;
+    text-decoration-line: none;
 }
-a:hover {
-}
+
 blockquote {
     background: #eee;
     padding: 10px 20px;
-    border-left: 5px solid #0077cc;
+    border-left: 5px solid #007fff;
     margin: 20px 0;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 35px;
+    font-style: italic;
+    font-family: Montserrat;
 }
 ul {
     padding-left: 20px;
+    padding: 15px;
 }
 pre {
     background: #333;
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
+    line-height: 25px;
+    color: white;
 }
+
 .highlight {
+    background-color: yellow;
+    font-weight: 600;
+
+}
+
+.ver {
+    text-transform: uppercase;
+}
+
+.zach {
+    text-decoration-line: line-through;
+}
+
+
+.ras {
+    word-spacing: 1em;
 }
